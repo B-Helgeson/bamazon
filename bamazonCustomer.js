@@ -19,10 +19,17 @@ connection.connect(function(err) {
     start(); // begin first function
   });
 
+resultTable = new Table({
+  head: ['id', 'name', 'dept', 'price', 'quty'], 
+  style: {head:[], border:[], 'padding-left':1, 'padding-right': 1 }
+})  
+
 function start() {
   // Show list of products from Database
-
-  // Begin to ask the customer questions
+  connection.query("SELECT * FROM products", function(err, results) {
+      console.log(results)
+    
+    // Begin to ask the customer questions
   inquirer
     .prompt([{
       name: "item",
@@ -37,10 +44,11 @@ function start() {
     .then(function(answers) {
       // Run function to submit a purchase after questions are answered
       if (answers.item === "1") {
-        console.log("AwesomeSauce")
+        console.log("Awesome Sauce")
       }
       else {
-        console.log("MaybeNextTime")
+        console.log("Maybe Next Time")
       }
     });
+  })
 }

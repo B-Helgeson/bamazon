@@ -19,17 +19,27 @@ connection.connect(function(err) {
     start(); // begin first function
   });
 
-resultTable = new Table({
-  head: ['id', 'name', 'dept', 'price', 'quty'], 
-  style: {head:[], border:[], 'padding-left':1, 'padding-right': 1 }
-})  
 
 function start() {
-  // Show list of products from Database
-  connection.query("SELECT * FROM products", function(err, results) {
-      console.log(results)
+
+  // Query to return a list of products from Database
+  connection.query("SELECT * FROM products", function(err, res) {
+
+  // Cli Table to hold the result set
+    var table = new Table({
+      head: ['id', 'name', 'dept', 'price', 'qty'], 
+      style: {head:[], border:[], 'padding-left':1, 'padding-right': 1 }
+    })  
+
+  // Looping through the results to build the table
+    for(var i = 0; i < res.length; i++){
+			table.push([res[i].item_id, res[i].product_name, res[i].department_name, res[i].offer_price, res[i].stock_quantity+'x'])
+		}
+
+    // Sending the table to the console, once populated with results
+		console.log(table.toString())    
     
-    // Begin to ask the customer questions
+    // Begining to ask the customer questions
   inquirer
     .prompt([{
       name: "item",

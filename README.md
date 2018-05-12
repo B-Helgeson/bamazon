@@ -12,11 +12,15 @@ Available Functionality:
 
 
 <h4>To Use: </h4>
-* 1. npm i
-* 2. node bamazonCustomer.js
+* npm i <br/>
+* node bamazonCustomer.js
 
 <h2>Demo Video</h2>
 
 ![customer demo](https://raw.githubusercontent.com/B-Helgeson/bamazon/master/bamazon.gif)
 
 <h2>Technologies: Node, MySQL, Javascript, NPM</h2>
+
+<h2>Link to my portfolio</h2>
+
+[Brandon Helgeson Public Portfolio](https://b-helgeson.github.io/Responsive-Portfolio/portfolio.html)

@@ -12,14 +12,19 @@ Available Functionality:
 
 
 <h4>To Use: </h4>
-* npm i <br/>
-* node bamazonCustomer.js
+* run bamazonSchema.sql in mySql (to create the data source)</br>
+* npm i (to install the required dependancies)<br/>
+* node bamazonCustomer.js (to run the application)
 
 <h2>Demo Video</h2>
 
 ![customer demo](https://raw.githubusercontent.com/B-Helgeson/bamazon/master/bamazon.gif)
 
-<h2>Technologies: Node, MySQL, Javascript, NPM</h2>
+<h2>Technologies Used</h2>
+* Node </br>
+* MySQL </br>
+* Javascript </br>
+* NPM </br>
 
 <h2>Link to my portfolio</h2>
 

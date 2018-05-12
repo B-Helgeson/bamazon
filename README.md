@@ -11,11 +11,11 @@ Available Functionality:
 * List of available products subtracted from inventory. 
 
 
-<h4>To Use: 
+<h4>To Use: </h4>
 * 1. npm i
 * 2. node bamazonCustomer.js</h4>
 
-<h2>Demo Video<h2>
+<h2>Demo Video</h2>
 ![Alt Text](https://raw.githubusercontent.com/B-Helgeson/bamazon/master/bamazon.gif)
 
 <h2>Technologies: Node, MySQL, Javascript, NPM</h2>

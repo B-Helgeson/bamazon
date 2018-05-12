@@ -16,6 +16,7 @@ Available Functionality:
 * 2. node bamazonCustomer.js
 
 <h2>Demo Video</h2>
-![customer demo](https://github.com/B-Helgeson/bamazon/blob/master/bamazon.gif?raw=true)
+
+![customer demo](https://raw.githubusercontent.com/B-Helgeson/bamazon/master/bamazon.gif)
 
 <h2>Technologies: Node, MySQL, Javascript, NPM</h2>

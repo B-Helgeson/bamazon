@@ -13,9 +13,9 @@ Available Functionality:
 
 <h4>To Use: </h4>
 * 1. npm i
-* 2. node bamazonCustomer.js</h4>
+* 2. node bamazonCustomer.js
 
 <h2>Demo Video</h2>
-![Alt Text](https://raw.githubusercontent.com/B-Helgeson/bamazon/master/bamazon.gif)
+![customer demo](https://github.com/B-Helgeson/bamazon/blob/master/bamazon.gif?raw=true)
 
 <h2>Technologies: Node, MySQL, Javascript, NPM</h2>
